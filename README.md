@@ -101,8 +101,8 @@ THEN a success message 'You have been successfully subscribed!' will be visible
 
 4. Sürücü uygulamasını kopyalayıp şu klasöre yapıştırın: `Web-And-API-Testing-Project/src/test/resources/`
 5. Aynı "/resources" klasöründeki "WebTesting.properties" dosyasını açın.
-6. "WebTesting.properties"te, kullandığınız sürücünün "yorumlanmamış" **yalnızca** sürücü olduğundan emin olun. Chrome kullanıyorsanız, Chrome varsayılan sürücü olduğundan bu adımı atlayın.
-
+6. WebTesting.properties'te, kullandığınız sürücünün "un-commented" tek sürücü olduğundan emin olun. Chrome kullanıyorsanız, Chrome varsayılan sürücü olduğundan bu adımı atlayın.
+7. 
 - Örneğin; Firefox kullanıyorsanız, "webdriver=chrome" ve "webdriver=firefox" yorumlarını kaldırın.
 
 7. "src/test/java/com/sparta/badgerBytes/webTesting/pom/util" klasöründen "DriverFactory.getDriver()" öğesini çağırın ve "src/test/" içindeki "HomePage" sınıfının kurucusuna iletin. java/com/sparta/badgerBytes/webTesting/pom/pages`
